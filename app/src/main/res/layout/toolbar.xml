@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:padding="10dp"
+            android:contentDescription="@string/techtree"
+            />
+
+        <TextView
+            android:id="@+id/OverViewtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/pi"
+            android:textSize="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_web_black_24dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="@dimen/_12sdp"
+            android:contentDescription="@string/techtree"
+            />
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+</LinearLayout>

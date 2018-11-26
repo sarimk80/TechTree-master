@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1043802892939",
+    "firebase_url": "https://techtree-3625c.firebaseio.com",
+    "project_id": "techtree-3625c",
+    "storage_bucket": "techtree-3625c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043802892939:android:bee1fdbe7e0b37cb",
+        "android_client_info": {
+          "package_name": "mk.techtree"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043802892939-h7edm939qbb0dk6v9549d08qtek0ib18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.techtree",
+            "certificate_hash": "b7f91b7a49cc79121757297a3918e458591db0d1"
+          }
+        },
+        {
+          "client_id": "1043802892939-hndk026efpghaemr1069il90uk6vookh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.techtree",
+            "certificate_hash": "f08e086f09d755487963346f76212fca1a861aab"
+          }
+        },
+        {
+          "client_id": "1043802892939-e700gcglgjsiqtbi17hgvtkne6tghk1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDisjYX0IsnqX5IIHBI73SIKSsHXKarVm0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043802892939-e700gcglgjsiqtbi17hgvtkne6tghk1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

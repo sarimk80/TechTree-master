@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.OverView"
+    android:orientation="vertical"
+    >
+
+    <include
+        layout="@layout/main_toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:weightSum="2"
+        >
+
+    <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_10sdp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:corner_radius="8dp"
+        android:layout_weight="0.6"
+
+        >
+
+        <ImageView
+            android:id="@+id/raspberry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/raspberrypi3_image"
+            android:contentDescription="@string/raspberry_pi_3"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pi"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="@color/white"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+
+            />
+
+
+
+    </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+    <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_10sdp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:corner_radius="8dp"
+        android:layout_weight="0.6"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bumble Pi"
+            android:textSize="@dimen/_25sdp"
+            android:textColor="@color/white"
+            android:elevation="5dp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+
+            />
+
+        <ImageView
+            android:id="@+id/kit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shield_image"
+            android:contentDescription="@string/kit"
+            />
+
+    </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
