@@ -10,30 +10,19 @@
 
     <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/_card"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/_150sdp"
-        android:elevation="10dp"
-        app:corner_radius="8dp">
+        style="@style/cardView_cardview">
 
 
         <ImageView
             android:id="@+id/card_image"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            style="@style/card_Image"
             android:background="@drawable/stem"
-            android:contentDescription="@string/raspberry_pi_3" />
+             />
 
         <TextView
             android:id="@+id/project"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:elevation="8dp"
-            android:fontFamily="serif"
-            android:text="Project"
-            android:textColor="@color/paragraph_text"
-            android:textSize="@dimen/_20sdp"
-            android:textStyle="bold" />
+           style="@style/card_text"
+             />
 
     </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
 

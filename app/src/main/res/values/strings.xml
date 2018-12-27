@@ -20,5 +20,9 @@
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="action_settings">Settings</string>
+
+    <string name="RPI_content">The Raspberry Pi is a single board credit card sized microcomputer developed in UK by Raspberry Pi Foundation in 2012. Raspberry Pi is an ARM Architecture Processor based board, a cpu of 1.2 giga hertz, 1 GB RAM and supports SD cards as external hard drive.</string>
+
+
     <string name="section_format">Hello World from section: %1$d</string>
 </resources>

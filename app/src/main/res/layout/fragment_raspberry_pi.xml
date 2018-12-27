@@ -31,14 +31,13 @@
 
             <ImageView
                 android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="@style/Image_overView_Raspberry"
                 android:src="@drawable/raspberry1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:scaleType="fitXY"
+
                 />
 
             <ImageView
@@ -175,13 +174,7 @@
 
 
         <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_190sdp"
-            android:layout_margin="@dimen/_10sdp"
-            app:corner_radius="8dp"
-            android:elevation="2dp"
-            android:orientation="vertical"
-            android:layout_weight="0.8"
+            style="@style/fragment_RPI_card"
             >
 
             <ScrollView
@@ -198,27 +191,15 @@
 
                     <TextView
                         android:id="@+id/heading"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="@dimen/_6sdp"
-                        android:gravity="center_horizontal"
+                        style="@style/fragment_RPI_TextView"
                         android:text="Raspberry Pi 3"
-                        android:textColor="@color/text"
-                        android:textSize="@dimen/_17sdp"
-                        android:textStyle="bold"
+
 
                         />
 
                     <TextView
                         android:id="@+id/content"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="@dimen/_6sdp"
-                        android:text="The Raspberry Pi is a single board credit card sized microcomputer developed in UK by Raspberry Pi Foundation in 2012. Raspberry Pi is an ARM Architecture Processor based board, a cpu of 1.2 giga hertz, 1 GB RAM and supports SD cards as external hard drive."
-                        android:lineSpacingExtra="@dimen/_5sdp"
-                        android:textColor="@color/text"
-                        android:textSize="@dimen/_15sdp"
-                        android:textAlignment="textStart"
+                        style="@style/fragment_RPI_content"
                         />
 
 

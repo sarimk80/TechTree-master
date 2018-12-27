@@ -12,15 +12,14 @@ import android.view.MenuItem;
 import mk.techtree.fragments.OverView;
 import mk.techtree.fragments.Projects;
 import mk.techtree.fragments.RCcar;
+import mk.techtree.models.UserModel;
 
 
-public class MainActivity extends AppCompatActivity implements  BottomNavigationView.OnNavigationItemSelectedListener{
-
+public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
 
 
     BottomNavigationView navigation;
-
-
+    UserModel userModel = new UserModel();
 
 
     @Override
@@ -89,5 +88,6 @@ public class MainActivity extends AppCompatActivity implements  BottomNavigation
 
                 return true;
         }
-        return false;    }
+        return false;
+    }
 }

@@ -37,6 +37,10 @@ android {
         exclude 'META-INF/notice.txt'
         exclude 'META-INF/ASL2.0'
     }
+
+    dataBinding{
+        enabled=true
+    }
 }
 
 
@@ -44,34 +48,62 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
+
+    //Font library
     implementation 'com.vstechlab.easyfonts:easyfonts:1.0.0'
+
+    //Ripple Library
     implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+
+    //Animation Library
     implementation 'com.github.Binary-Finery:Bungee:master-SNAPSHOT'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.android.support:support-v4:27.1.1'
+
+    //SpotLight
     implementation 'com.getkeepsafe.taptargetview:taptargetview:1.12.0'
     implementation 'com.github.wooplr:Spotlight:1.2.3'
+
+    //ButterKnief
     implementation 'com.jakewharton:butterknife:8.5.1'
+
+    //GifView library
     implementation 'com.github.Cutta:GifView:1.1'
     implementation 'com.airbnb.android:lottie:2.5.0'
+
+    //Spolight
     implementation 'com.github.takusemba:spotlight:1.5.0'
+
+    //RecyclerView
     implementation 'com.android.support:recyclerview-v7:27.1.1'
-    implementation 'com.android.volley:volley:1.0.0'
+
+    //Volley
+    implementation 'com.android.volley:volley:1.1.0'
+
+    //Picasso
     implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //Youtube Player
     implementation files('libs/YouTubeAndroidPlayerApi.jar')
     implementation 'com.intuit.sdp:sdp-android:1.0.5'
+
+    //ButterLnife compiler
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+
+    //Round corner Library
     implementation 'com.jcminarro:RoundKornerLayouts:0.3.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation files('libs/YouTubeAndroidPlayerApi.jar')
-    implementation 'com.jcminarro:RoundKornerLayouts:0.4.0'
+
+
     implementation 'com.facebook.android:facebook-android-sdk:4.38.1'
     implementation 'com.google.code.gson:gson:2.8.0'
     implementation 'com.gdacciaro:iosdialog:1.0.3'
     implementation 'com.google.android.gms:play-services-places:16.0.0'
     implementation 'com.github.bane73:firebase4j:8d16c12934'
+
+    //FireBase Library
     implementation 'com.google.firebase:firebase-firestore:17.1.2'
     implementation 'com.google.firebase:firebase-core:16.0.4'
     implementation 'com.kaopiz:kprogresshud:1.1.0'

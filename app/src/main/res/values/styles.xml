@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
@@ -12,5 +12,215 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    //ImageView Style use in OverView Layout
+    <style name="Image_overView" parent="Base.Widget.AppCompat.ImageButton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+
+    //TextView Style use in OverView Layout
+
+    <style name="Textstyle" parent="TextAppearance.AppCompat">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:elevation" tools:targetApi="lollipop">5dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_25sdp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    // ImageView Style in Fragment_Raspberry pi
+    <style name="Image_overView_Raspberry" parent="Base.Widget.AppCompat.ImageButton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+
+
+    //CardView in Fragment_Raspberry pi
+
+    <style name="fragment_RPI_card" parent="CardView">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_190sdp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+        <item name="android:layout_weight">0.8</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/_10sdp</item>
+    </style>
+
+
+
+    //TextView Heading in Fragment_Raspberry pi
+    <style name="fragment_RPI_TextView" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/_6sdp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/_17sdp</item>
+        <item name="android:textStyle">bold</item>
+
+
+    </style>
+
+
+    //TextView content in Fragment_Raspberry pi
+    <style name="fragment_RPI_content" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/_6sdp</item>
+        <item name="android:text">@string/RPI_content</item>
+        <item name="android:lineSpacingExtra">@dimen/_5sdp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textAlignment">textStart</item>
+
+
+    </style>
+
+    //CardView Layout Card
+
+    <style name="cardView_cardview" parent="CardView">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_150sdp</item>
+        <item name="android:elevation" tools:targetApi="lollipop">10dp</item>
+        <item name="cardCornerRadius">8dp</item>
+
+
+    </style>
+
+
+    //ImageView Layout Card
+    <style name="card_Image" parent="Base.Widget.AppCompat.ImageButton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:contentDescription">@string/app_name</item>
+
+    </style>
+
+
+
+    //TextView Layout Card
+
+    <style name="card_text" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:elevation" tools:targetApi="lollipop">8dp</item>
+        <item name="android:fontFamily">serif</item>
+        <item name="android:textColor">@color/paragraph_text</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">Project</item>
+
+
+    </style>
+
+
+    /*
+        Fragment_content_fragment Layout
+    */
+    //Fragment_content_fragment Layout card
+    <style name="content_card" parent="CardView">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_200sdp</item>
+        <item name="android:elevation" tools:targetApi="lollipop">2dp</item>
+    </style>
+
+    //Fragment_content_fragment Layout image
+
+    <style name="content_image" parent="Base.Widget.AppCompat.ImageButton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:scaleType">fitXY</item>
+
+    </style>
+
+    //Fragment_content_fragment Layout text Heading
+
+    <style name="content_heading" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/_10sdp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    //Fragment_content_fragment Layout text paragraph
+
+    <style name="content_pararaph" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/_10sdp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">@dimen/_10sdp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">@color/paragraph_text</item>
+        <item name="android:textSize">@dimen/_14sdp</item>
+
+
+    </style>
+
+
+
+    //Fragment rcCAR
+
+    <style name="fragment_rccar_imageView" parent="Base.Widget.AppCompat.ImageButton">
+
+        <item name="android:layout_width">@dimen/_70sdp</item>
+        <item name="android:layout_height">@dimen/_70sdp</item>
+        <item name="android:src">@drawable/arrow</item>
+
+
+    </style>
+
+
+
+    //Device_Adapter
+
+
+    <style name="device_adapter_textView" parent="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/_15sdp</item>
+        <item name="android:textColor">@color/text</item>
+
+
+
+
+
+
+
+    </style>
 
 </resources>

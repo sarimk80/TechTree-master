@@ -34,23 +34,17 @@
         >
 
         <ImageView
+            style="@style/Image_overView"
             android:id="@+id/raspberry"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
             android:background="@drawable/raspberrypi3_image"
-            android:contentDescription="@string/raspberry_pi_3"
+
 
             />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/Textstyle"
             android:text="@string/pi"
-            android:textSize="@dimen/_25sdp"
-            android:textColor="@color/white"
-            android:elevation="5dp"
-            android:textStyle="bold"
-            android:layout_centerInParent="true"
+
 
             />
 
@@ -69,23 +63,16 @@
         >
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/Textstyle"
             android:text="Bumble Pi"
-            android:textSize="@dimen/_25sdp"
-            android:textColor="@color/white"
-            android:elevation="5dp"
-            android:textStyle="bold"
-            android:layout_centerInParent="true"
+
 
             />
 
         <ImageView
             android:id="@+id/kit"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            style="@style/Image_overView"
             android:background="@drawable/shield_image"
-            android:contentDescription="@string/kit"
             />
 
     </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
