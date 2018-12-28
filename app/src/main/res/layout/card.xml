@@ -8,7 +8,7 @@
     android:paddingBottom="@dimen/_10sdp">
 
 
-    <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
         android:id="@+id/_card"
         style="@style/cardView_cardview">
 

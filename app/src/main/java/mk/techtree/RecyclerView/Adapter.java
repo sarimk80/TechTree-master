@@ -51,9 +51,10 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
         holder.projects.setText(list_view_setters1.getName_project());
         //Picasso.get().load(list_view_setters1.getCard_image()).into(holder.imageView);
 
-        holder.cardView.setOnClickListener(new View.OnClickListener() {
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //Toast.makeText(context,"Click on card",Toast.LENGTH_LONG).show();
                 Intent intent=new Intent(view.getContext(), Content_activity.class);
                 intent.putExtra("Title",list_view_setters1.getName_project());
                 intent.putExtra("Description",list_view_setters1.getDescription());

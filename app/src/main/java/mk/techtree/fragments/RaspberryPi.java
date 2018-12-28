@@ -65,13 +65,13 @@ public class RaspberryPi extends Fragment {
 
         ButterKnife.bind(this, view);
 
-        back.setVisibility(View.INVISIBLE);
-        textView.setText("Raspberry Pi");
+        back.setVisibility(View.VISIBLE);
+        textView.setText(R.string.pi);
 
         logout.setVisibility(View.INVISIBLE);
         imageView = view.findViewById(R.id.usb);
 
-        Toast.makeText(getContext(),"Tap on components to read more about it",Toast.LENGTH_LONG).show();
+        Toast.makeText(getContext(), "Tap on components to read more about it", Toast.LENGTH_LONG).show();
 
 
         if (!BaseApplication.isKitAnimationDisplayed) {
@@ -107,73 +107,73 @@ public class RaspberryPi extends Fragment {
     }
 
     @OnClick(R.id.back)
-    public void back(){
-        Intent intent=new Intent(getActivity(), MainActivity.class);
+    public void back() {
+        Intent intent = new Intent(getActivity(), MainActivity.class);
         startActivity(intent);
     }
 
     @OnClick(R.id.usb)
     public void usb() {
-        heading.setText("USB Port");
-        content.setText("USB port allow USB devices to be connected to each other with and transfer digital data over the USB Cable. It allows to connect generic keyboard and mouse which is utilize for operating Raspberry Pi.");
+        heading.setText(R.string.Usb_Heading);
+        content.setText(R.string.Usb_Text);
     }
 
     @OnClick(R.id.usb1)
     public void usb1() {
-        heading.setText("USB Port");
-        content.setText("USB port allow USB devices to be connected to each other with and transfer digital data over the USB Cable. It allows to connect generic keyboard and mouse which is utilize for operating Raspberry Pi.");
+        heading.setText(R.string.Usb_Heading);
+        content.setText(R.string.Usb_Text);
     }
 
     @OnClick(R.id.ethernet)
     public void etherner() {
-        heading.setText("Ethernet");
-        content.setText("The Ethernet port allows the raspberry pi to connect to a network using a wired connection. It allows raspberry pi to transmit and receive data.");
+        heading.setText(R.string.Ethernet_Heading);
+        content.setText(R.string.Ethernet_text);
     }
 
 
     @OnClick(R.id.audio)
     public void audio() {
-        heading.setText("Audio Jack");
-        content.setText("Raspberry pi comes with built-in audio jack. You can either connect speakers or headphones to it.");
+        heading.setText(R.string.Audio_Heading);
+        content.setText(R.string.Audio_Text);
     }
 
     @OnClick(R.id.hdmi)
     public void hdmi() {
-        heading.setText("HDMI Port");
-        content.setText("The High Definition Multimedia Interface (HDMI) is an interface which allows to transmit audio/video data. Through HDMI we can connect either monitor or LCDs.");
+        heading.setText(R.string.Hdmi_Heading);
+        content.setText(R.string.Hdmi_Text);
     }
 
     @OnClick(R.id.power)
     public void power() {
-        heading.setText("USB Power Port");
-        content.setText("The raspberry pi comes with the micro USB power port. We can power up our raspberry pi using this micro USB port.");
+        heading.setText(R.string.Power_Heading);
+        content.setText(R.string.Power_Text);
     }
 
 
     @OnClick(R.id.processor)
     public void processor() {
-        heading.setText("Processor");
-        content.setText("Raspberry Pi have used a Broadcom BCM2837 system-on-chip (SoC) which includes, four high-performance ARM Cortex-A53 processing cores running at 1.2GHz with Level 1 (32kB) and Level 2 (512kB) cache memory, a VideoCore IV graphics processor, and is linked to 1GB low power DDR2 memory module. ");
+        heading.setText(R.string.Processor_Heading);
+        content.setText(R.string.Processor_Text);
     }
 
     @OnClick(R.id.camera)
     public void camera() {
-        heading.setText("CSI Connector");
-        content.setText("The Camera Serial Interface (CSI) is an interface between a camera and host processor. It allows camera to be connected with raspberry pi with a CSI ribbon.");
+        heading.setText(R.string.Camera_Heading);
+        content.setText(R.string.Camera_Text);
     }
 
 
     @OnClick(R.id.gpio)
     public void gpio() {
-        heading.setText("GPIO");
-        content.setText(" A powerful feature of Raspberry Pi is the row of GPIO pins along the top edge of the board. GPIO pins allows the raspberry pi to be configured for different purposes, interact with different circuitries and work with several type of electronic component, for instance, sensors, motors, DC drives etc.");
+        heading.setText(R.string.GPIO_Heading);
+        content.setText(R.string.GPIO_Text);
     }
 
 
     @OnClick(R.id.lcd)
     public void lcd() {
-        heading.setText("DSI Connector");
-        content.setText("the Display Serial Interface (DSI) allows the touchscreens (LCD/OLED) to be connected with raspberry pi via DSI ribbon. Through this interface we can make touchscreen panels.");
+        heading.setText(R.string.LCD_Heading);
+        content.setText(R.string.LCD_Text);
     }
 
 

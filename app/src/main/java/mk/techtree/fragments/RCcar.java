@@ -254,7 +254,7 @@ public class RCcar extends Fragment implements AdapterView.OnItemClickListener {
         lvNewDevices.setOnItemClickListener(RCcar.this);
         //catLoadingView = new CatLoadingView();
 
-        textView.setText("Bumble pi");
+        textView.setText("Bumble Pi");
 
         enableDisableBT();
 

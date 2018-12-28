@@ -39,7 +39,7 @@
 
 
     // ImageView Style in Fragment_Raspberry pi
-    <style name="Image_overView_Raspberry" parent="Base.Widget.AppCompat.ImageButton">
+    <style name="Image_overView_Raspberry">
 
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -100,7 +100,6 @@
 
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/_150sdp</item>
-        <item name="android:elevation" tools:targetApi="lollipop">10dp</item>
         <item name="cardCornerRadius">8dp</item>
 
 
@@ -108,7 +107,7 @@
 
 
     //ImageView Layout Card
-    <style name="card_Image" parent="Base.Widget.AppCompat.ImageButton">
+    <style name="card_Image" >
 
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -149,7 +148,7 @@
 
     //Fragment_content_fragment Layout image
 
-    <style name="content_image" parent="Base.Widget.AppCompat.ImageButton">
+    <style name="content_image" >
 
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
@@ -193,7 +192,7 @@
 
     //Fragment rcCAR
 
-    <style name="fragment_rccar_imageView" parent="Base.Widget.AppCompat.ImageButton">
+    <style name="fragment_rccar_imageView">
 
         <item name="android:layout_width">@dimen/_70sdp</item>
         <item name="android:layout_height">@dimen/_70sdp</item>

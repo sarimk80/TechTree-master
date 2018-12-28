@@ -120,8 +120,8 @@ public class Content_activity extends AppCompatActivity {
     private void SetupViewPager(ViewPager viewPager) {
 
         SectionPageAdapter sectionPageAdapter = new SectionPageAdapter(getSupportFragmentManager());
-        sectionPageAdapter.AddFragments(new Content_fragment(), "Content");
-        sectionPageAdapter.AddFragments(new Youtube_fragment(), "Tutorial");
+        sectionPageAdapter.AddFragments(new Content_fragment(), "Text Guide");
+        sectionPageAdapter.AddFragments(new Youtube_fragment(), "Video Guide");
 
         viewPager.setAdapter(sectionPageAdapter);
 

@@ -20,9 +20,120 @@
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
     <string name="action_settings">Settings</string>
+    <string name="Bumble_Pi">Bumble Pi Robot</string>
 
     <string name="RPI_content">The Raspberry Pi is a single board credit card sized microcomputer developed in UK by Raspberry Pi Foundation in 2012. Raspberry Pi is an ARM Architecture Processor based board, a cpu of 1.2 giga hertz, 1 GB RAM and supports SD cards as external hard drive.</string>
 
 
     <string name="section_format">Hello World from section: %1$d</string>
+
+
+    /*
+        Fragment_Raspberry Pi _ String
+
+    */
+
+    //Usb Port
+
+    <string name="Usb_Heading">USB Port</string>
+    <string name="Usb_Text">USB port allow USB devices to be connected to each other with and transfer digital data over the USB Cable. It allows to connect generic keyboard and mouse which is utilize for operating Raspberry Pi.</string>
+
+    // Ethernet Port
+
+    <string name="Ethernet_Heading">Ethernet</string>
+    <string name="Ethernet_text">The Ethernet port allows the raspberry pi to connect to a network using a wired connection. It allows raspberry pi to transmit and receive data.</string>
+
+
+    // Audio
+
+    <string name="Audio_Heading">Audio Jack</string>
+    <string name="Audio_Text">Raspberry pi comes with built-in audio jack. You can either connect speakers or headphones to it.</string>
+
+
+    // Hdmi
+
+    <string name="Hdmi_Heading">HDMI Port</string>
+    <string name="Hdmi_Text">The High Definition Multimedia Interface (HDMI) is an interface which allows to transmit audio/video data. Through HDMI we can connect either monitor or LCDs.</string>
+
+    // Power
+
+    <string name="Power_Heading">USB Power Port</string>
+    <string name="Power_Text">The raspberry pi comes with the micro USB power port. We can power up our raspberry pi using this micro USB port.</string>
+
+    // Processor
+    <string name="Processor_Heading">Processor</string>
+    <string name="Processor_Text">Raspberry Pi have used a Broadcom BCM2837 system-on-chip (SoC) which includes, four high-performance ARM Cortex-A53 processing cores running at 1.2GHz with Level 1 (32kB) and Level 2 (512kB) cache memory, a VideoCore IV graphics processor, and is linked to 1GB low power DDR2 memory module.</string>
+
+    //Camera
+
+    <string name="Camera_Heading">CSI Connector</string>
+    <string name="Camera_Text">The Camera Serial Interface (CSI) is an interface between a camera and host processor. It allows camera to be connected with raspberry pi with a CSI ribbon.</string>
+
+    // GPIO
+    <string name="GPIO_Heading">GPIO</string>
+    <string name="GPIO_Text">A powerful feature of Raspberry Pi is the row of GPIO pins along the top edge of the board. GPIO pins allows the raspberry pi to be configured for different purposes, interact with different circuitries and work with several type of electronic component, for instance, sensors, motors, DC drives etc.</string>
+
+    // LCD
+
+    <string name="LCD_Heading">DCI Connector</string>
+    <string name="LCD_Text">The Display Serial Interface (DSI) allows the touchscreens (LCD/OLED) to be connected with raspberry pi via DSI ribbon. Through this interface we can make touchscreen panels.</string>
+
+
+
+
+    /*
+
+        Fragment_Kit
+
+    */
+
+    // Servo Motor
+
+    <string name="Servo_Heaing">Servo Motor</string>
+    <string name="Servo_Text">Servo Motors are electric devices that rotate or push parts of a machine with great precision. The reason for its precision is a feedback circuit that checks the location of servo and compare it to the position signal, this circuit is already integrated in the servo motor we just have to provide the input signal and servo motor will automatically move to the angle according to the input signal. Servos are found in many places: from toys to home electronics to cars and airplanes</string>
+
+
+    // Sonar Sensor
+
+    <string name="Sonar_Heading">Sonar</string>
+    <string name="Sonar_Text">Sonar Sensor, is basically used for measuring distance, which works on the principle of Sonar. Ultrasonic sound waves, which isn’t audible by human ear, are emitted by the sensor and they are reflected back if there is an object in front of it. Distance is then estimated by the time interval between sensor and object.</string>
+
+     // Battery
+
+    <string name="Battery_Heading">Batrey</string>
+    <string name="Battery_Text">A Power House for the robotic car</string>
+
+    // Motor
+
+    <string name="Motor_Heading">DC Motor</string>
+    <string name="Motor_Text">DC motors are actuators that converts electrical energy into mechanical energy. DC motor or Direct Current Motor, is the most commonly used actuator for producing continuous movement and whose speed of rotation can easily be controlled, making them ideal for use in application where speed control is require.</string>
+
+    // Wheel
+
+    <string name="Wheel_Heading">Wheel Caster</string>
+    <string name="Wheel_Text">Provides easy rolling movement of the robotic car while turning right or left and moving back and forth.</string>
+
+    // Robot
+
+    <string name="Rorobt_Heading">Smart Robot Car</string>
+    <string name="Robot_Text">A base frame of robotic car.</string>
+
+    // Raspberry Pi
+
+    <string name="Raspberry_Heading">Raspberry Pi</string>
+    <string name="Raspberry_Text">The Raspberry Pi is credit card sized small computer. It has a processor, RAM, USB ports to plug a keyboard and a mouse, HDMI port to plug a TV or monitor, and you can even connect it to the internet.You can do most things you do with a regular computer like web browsing, document editing, playing games, coding and much more.</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </resources>
