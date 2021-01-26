@@ -1,60 +1,90 @@
 {
   "project_info": {
-    "project_number": "1043802892939",
-    "firebase_url": "https://techtree-3625c.firebaseio.com",
-    "project_id": "techtree-3625c",
-    "storage_bucket": "techtree-3625c.appspot.com"
+    "project_number": "635330782929",
+    "firebase_url": "https://techtreearduino.firebaseio.com",
+    "project_id": "techtreearduino",
+    "storage_bucket": "techtreearduino.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1043802892939:android:bee1fdbe7e0b37cb",
+        "mobilesdk_app_id": "1:635330782929:android:2f5d9bd129a26e50",
+        "android_client_info": {
+          "package_name": "com.tree.techtreeandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635330782929-8gtfsb1cbbjg44er514imlmegkb838i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tree.techtreeandroid",
+            "certificate_hash": "838155dc2f693a58d06da32f6e92d73a5ed6850e"
+          }
+        },
+        {
+          "client_id": "635330782929-sonemktgc5osjbtie1tjh60shnia1j1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tree.techtreeandroid",
+            "certificate_hash": "5d92c1fbf5b2d0a6b7076c19d50e7cf67a685a50"
+          }
+        },
+        {
+          "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcxCxxmc4R_fHo6pLtEocETEj531m5EPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635330782929:android:9785109acd388f404a87f0",
         "android_client_info": {
           "package_name": "mk.techtree"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1043802892939-h7edm939qbb0dk6v9549d08qtek0ib18.apps.googleusercontent.com",
+          "client_id": "635330782929-idqpkr01ni38uq9t7e1jntdqkd9nj5n5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "mk.techtree",
-            "certificate_hash": "b7f91b7a49cc79121757297a3918e458591db0d1"
+            "certificate_hash": "aa274e196e8715c65c9e3c7e4c81a768b88dd8cf"
           }
         },
         {
-          "client_id": "1043802892939-hndk026efpghaemr1069il90uk6vookh.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "mk.techtree",
-            "certificate_hash": "f08e086f09d755487963346f76212fca1a861aab"
-          }
-        },
-        {
-          "client_id": "1043802892939-e700gcglgjsiqtbi17hgvtkne6tghk1h.apps.googleusercontent.com",
+          "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDisjYX0IsnqX5IIHBI73SIKSsHXKarVm0"
+          "current_key": "AIzaSyDcxCxxmc4R_fHo6pLtEocETEj531m5EPk"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "1043802892939-e700gcglgjsiqtbi17hgvtkne6tghk1h.apps.googleusercontent.com",
+              "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
-        },
-        "ads_service": {
-          "status": 2
         }
       }
     }

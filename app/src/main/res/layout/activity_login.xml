@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_login"
+
     android:fillViewport="true"
     android:orientation="vertical">
 
@@ -15,7 +15,6 @@
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginTop="100dp"
-        android:background="#7aaa"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:padding="20dp"
@@ -41,7 +40,6 @@
             android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-
             />
 
         <Button
@@ -51,7 +49,7 @@
             android:layout_height="wrap_content"
             android:text="Use anonymously"
             android:fontFamily="sans-serif"
-            android:textColor="@color/colorAccent"
+            android:textColor="@color/text"
             style="?android:attr/borderlessButtonStyle"
             />
 
