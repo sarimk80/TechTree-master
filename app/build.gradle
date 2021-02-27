@@ -1,15 +1,25 @@
 apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
-    compileSdkVersion 27
+    signingConfigs {
+        'RELEASE SHA1' {
+            storeFile file('/Users/sarimkhans/Desktop/techtree.nosync/TechTree-master/bumblePi')
+            keyAlias 'bumble'
+            storePassword '123456789.'
+            keyPassword '123456789.'
+        }
+    }
+    compileSdkVersion 30
     defaultConfig {
-        applicationId "mk.techtree"
+        applicationId "mk.bumble"
         minSdkVersion 19
-        targetSdkVersion 27
+        targetSdkVersion 30
         multiDexEnabled true
         versionCode 6
         versionName "6.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        signingConfig signingConfigs.'RELEASE SHA1'
     }
     buildTypes {
         release {
@@ -38,8 +48,8 @@ android {
         exclude 'META-INF/ASL2.0'
     }
 
-    dataBinding{
-        enabled=true
+    buildFeatures {
+        dataBinding = true
     }
 }
 
@@ -47,8 +57,8 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     //noinspection GradleCompatible
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:design:27.1.1'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
 
     //Font library
     implementation 'com.vstechlab.easyfonts:easyfonts:1.0.0'
@@ -60,15 +70,16 @@ dependencies {
     implementation 'com.github.Binary-Finery:Bungee:master-SNAPSHOT'
 
     //Constrain_Layout
-    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
     //SpotLight
     implementation 'com.getkeepsafe.taptargetview:taptargetview:1.12.0'
     implementation 'com.github.wooplr:Spotlight:1.2.3'
 
     //ButterKnief
-    implementation 'com.jakewharton:butterknife:8.5.1'
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
 
     //GifView library
     implementation 'com.github.Cutta:GifView:1.1'
@@ -78,7 +89,7 @@ dependencies {
     implementation 'com.github.takusemba:spotlight:1.5.0'
 
     //RecyclerView
-    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
 
     //Volley
     implementation 'com.android.volley:volley:1.1.0'
@@ -90,16 +101,15 @@ dependencies {
     implementation files('libs/YouTubeAndroidPlayerApi.jar')
     implementation 'com.intuit.sdp:sdp-android:1.0.5'
 
-    //ButterLnife compiler
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+
 
     //Round corner Library
     implementation 'com.jcminarro:RoundKornerLayouts:0.3.1'
 
 
     testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
 
 
     implementation 'com.facebook.android:facebook-android-sdk:4.38.1'
@@ -112,7 +122,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore:17.1.2'
     implementation 'com.google.firebase:firebase-core:16.0.4'
     implementation 'com.kaopiz:kprogresshud:1.1.0'
-    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'androidx.multidex:multidex:2.0.1'
     implementation 'com.google.android.gms:play-services-auth:15.0.1'
 
 

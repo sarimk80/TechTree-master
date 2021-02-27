@@ -9,7 +9,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="raspberry_pi_3">Raspberry pi 3</string>
+    <string name="raspberry_pi_3">Raspberry pi 4</string>
     <string name="kit">Tech Tree Kit</string>
     <string name="title_activity_splash_screen">Splash_screen</string>
     <string name="techtreelogo">TechTreelogo</string>
@@ -40,8 +40,8 @@
 
     // Ethernet Port
 
-    <string name="Ethernet_Heading">Ethernet</string>
-    <string name="Ethernet_text">The Ethernet port allows the raspberry pi to connect to a network using a wired connection. It allows raspberry pi to transmit and receive data.</string>
+    <string name="Ethernet_Heading">Gigabit Ethernet</string>
+    <string name="Ethernet_text">The Ethernet Port allows the Raspberry Pi 4 to connect to a network using wired connection. It allows raspberry pi to transmit and receive data.</string>
 
 
     // Audio
@@ -52,7 +52,7 @@
 
     // Hdmi
 
-    <string name="Hdmi_Heading">HDMI Port</string>
+    <string name="Hdmi_Heading">Micro HDMI ports</string>
     <string name="Hdmi_Text">The High Definition Multimedia Interface (HDMI) is an interface which allows to transmit audio/video data. Through HDMI we can connect either monitor or LCDs.</string>
 
     // Power
@@ -62,7 +62,7 @@
 
     // Processor
     <string name="Processor_Heading">Processor</string>
-    <string name="Processor_Text">Raspberry Pi have used a Broadcom BCM2837 system-on-chip (SoC) which includes, four high-performance ARM Cortex-A53 processing cores running at 1.2GHz with Level 1 (32kB) and Level 2 (512kB) cache memory, a VideoCore IV graphics processor, and is linked to 1GB low power DDR2 memory module.</string>
+    <string name="Processor_Text">The Raspberry Pi 4 uses a 1.5GHz 64-bit quad-core Arm Cortex-A72 CPU, has three RAM options (2GB, 4GB, 8GB), gigabit Ethernet, integrated 802.11ac/n wireless LAN, and Bluetooth 5.0</string>
 
     //Camera
 

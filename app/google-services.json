@@ -53,6 +53,59 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:635330782929:android:0c0054f325a5f3e54a87f0",
+        "android_client_info": {
+          "package_name": "mk.bumble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635330782929-22cunrcplc3023haoparff452gmi8tij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.bumble",
+            "certificate_hash": "7b92b92c8be80387d2ccb7d2ad00c8d3f1c846aa"
+          }
+        },
+        {
+          "client_id": "635330782929-odd46t7b79hmbrp6qbindokb5sn9o84f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.bumble",
+            "certificate_hash": "aa274e196e8715c65c9e3c7e4c81a768b88dd8cf"
+          }
+        },
+        {
+          "client_id": "635330782929-ucgm11fnatpefm4g9ffnt1d9ujnjviou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mk.bumble",
+            "certificate_hash": "6acae79f7877c481b8ff1470940b9baeed7e9efb"
+          }
+        },
+        {
+          "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcxCxxmc4R_fHo6pLtEocETEj531m5EPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:635330782929:android:9785109acd388f404a87f0",
         "android_client_info": {
           "package_name": "mk.techtree"

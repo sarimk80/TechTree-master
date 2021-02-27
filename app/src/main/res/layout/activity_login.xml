@@ -42,16 +42,16 @@
             android:layout_height="wrap_content"
             />
 
-        <Button
-            android:id="@+id/offline"
-            android:layout_margin="@dimen/_10sdp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Use anonymously"
-            android:fontFamily="sans-serif"
-            android:textColor="@color/text"
-            style="?android:attr/borderlessButtonStyle"
-            />
+<!--        <Button-->
+<!--            android:id="@+id/offline"-->
+<!--            android:layout_margin="@dimen/_10sdp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Use anonymously"-->
+<!--            android:fontFamily="sans-serif"-->
+<!--            android:textColor="@color/text"-->
+<!--            style="?android:attr/borderlessButtonStyle"-->
+<!--            />-->
 
     </com.jcminarro.roundkornerlayout.RoundKornerLinearLayout>
 

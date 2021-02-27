@@ -22,7 +22,7 @@
         android:layout_margin="@dimen/_7sdp"
         >
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/_190sdp"
             android:layout_margin="10dp"
@@ -132,7 +132,7 @@
                 app:layout_constraintTop_toTopOf="@+id/imageView"
                 app:layout_constraintVertical_bias="0.38" />
 
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
         <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
@@ -155,7 +155,7 @@
                         android:id="@+id/heading"
                         style="@style/fragment_RPI_TextView"
                         android:gravity="center_horizontal"
-                        android:text="Raspberry Pi 3"
+                        android:text="Raspberry Pi 4"
 
 
                         />

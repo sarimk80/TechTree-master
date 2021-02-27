@@ -21,7 +21,7 @@
         android:layout_margin="@dimen/_7sdp"
         >
 
-        <android.support.constraint.ConstraintLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="@dimen/_190sdp"
             android:layout_margin="10dp"
@@ -32,7 +32,7 @@
             <ImageView
                 android:id="@+id/imageView"
                 style="@style/Image_overView_Raspberry"
-                android:src="@drawable/raspberry1"
+                android:src="@drawable/raspberry_pi"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
                 app:layout_constraintHorizontal_bias="0.93"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageView"
-                app:layout_constraintVertical_bias="0.060000002" />
+                app:layout_constraintVertical_bias="0.86" />
 
             <ImageView
                 android:id="@+id/usb1"
@@ -68,16 +68,16 @@
 
             <ImageView
                 android:id="@+id/ethernet"
-                android:alpha="0.1"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
+                android:alpha="0.1"
                 android:background="@color/colorAccent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.93"
+                app:layout_constraintHorizontal_bias="0.931"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageView"
-                app:layout_constraintVertical_bias="0.84000003" />
+                app:layout_constraintVertical_bias="0.058" />
 
             <ImageView
                 android:id="@+id/audio"
@@ -146,16 +146,16 @@
 
             <ImageView
                 android:id="@+id/processor"
-                android:alpha="0.1"
                 android:layout_width="@dimen/_50sdp"
                 android:layout_height="@dimen/_50sdp"
+                android:alpha="0.1"
                 android:background="@color/colorAccent"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.28"
+                app:layout_constraintHorizontal_bias="0.31"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/imageView"
-                app:layout_constraintVertical_bias="0.41000003" />
+                app:layout_constraintVertical_bias="0.39" />
 
             <ImageView
                 android:id="@+id/gpio"
@@ -170,7 +170,7 @@
                 app:layout_constraintTop_toTopOf="@+id/imageView"
                 app:layout_constraintVertical_bias="0.0" />
 
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 
         <com.jcminarro.roundkornerlayout.RoundKornerLinearLayout
@@ -192,7 +192,7 @@
                     <TextView
                         android:id="@+id/heading"
                         style="@style/fragment_RPI_TextView"
-                        android:text="Raspberry Pi 3"
+                        android:text="Raspberry Pi 4"
 
 
                         />
