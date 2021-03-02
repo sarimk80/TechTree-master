@@ -8,51 +8,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:635330782929:android:2f5d9bd129a26e50",
-        "android_client_info": {
-          "package_name": "com.tree.techtreeandroid"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "635330782929-8gtfsb1cbbjg44er514imlmegkb838i2.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tree.techtreeandroid",
-            "certificate_hash": "838155dc2f693a58d06da32f6e92d73a5ed6850e"
-          }
-        },
-        {
-          "client_id": "635330782929-sonemktgc5osjbtie1tjh60shnia1j1b.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.tree.techtreeandroid",
-            "certificate_hash": "5d92c1fbf5b2d0a6b7076c19d50e7cf67a685a50"
-          }
-        },
-        {
-          "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDcxCxxmc4R_fHo6pLtEocETEj531m5EPk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:635330782929:android:0c0054f325a5f3e54a87f0",
         "android_client_info": {
           "package_name": "mk.bumble"
@@ -81,43 +36,6 @@
           "android_info": {
             "package_name": "mk.bumble",
             "certificate_hash": "6acae79f7877c481b8ff1470940b9baeed7e9efb"
-          }
-        },
-        {
-          "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDcxCxxmc4R_fHo6pLtEocETEj531m5EPk"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "635330782929-o56ifum8ccae7ivvr1bk5k1cbumbtr3b.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:635330782929:android:9785109acd388f404a87f0",
-        "android_client_info": {
-          "package_name": "mk.techtree"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "635330782929-idqpkr01ni38uq9t7e1jntdqkd9nj5n5.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "mk.techtree",
-            "certificate_hash": "aa274e196e8715c65c9e3c7e4c81a768b88dd8cf"
           }
         },
         {

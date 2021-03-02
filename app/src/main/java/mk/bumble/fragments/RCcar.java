@@ -297,12 +297,12 @@ public class RCcar extends Fragment {
                             .set(stop).addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void aVoid) {
-
+                            Log.d("TAG", "onSuccess: ");
                         }
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-
+                            Log.d("TAG", e.toString());
                         }
                     });
                     return true;
@@ -323,7 +323,7 @@ public class RCcar extends Fragment {
                     }).addOnFailureListener(new OnFailureListener() {
                         @Override
                         public void onFailure(@NonNull Exception e) {
-
+                            Log.d("TAG", e.toString());
                         }
                     });
                     return true;

@@ -16,7 +16,7 @@
         <ImageView
             android:id="@+id/card_image"
             style="@style/card_Image"
-            android:background="@drawable/stem"
+
              />
 
         <TextView

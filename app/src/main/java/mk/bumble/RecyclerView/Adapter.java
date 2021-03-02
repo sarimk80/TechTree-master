@@ -5,13 +5,22 @@ import android.content.Context;
 import android.content.Intent;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.net.Uri;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 import com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -42,10 +51,30 @@ public class Adapter extends RecyclerView.Adapter<Adapter.MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull Adapter.MyViewHolder holder, final int position) {
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+
+        StorageReference storageRef = storage.getReference();
 
         final List_View_Setters list_view_setters1 = list_view_setters.get(position);
-        holder.projects.setText(list_view_setters1.getName_project());
-        //Picasso.get().load(list_view_setters1.getCard_image()).into(holder.imageView);
+       // holder.projects.setText(list_view_setters1.getName_project());
+        Log.d("TAG", list_view_setters1.getProjectImageUrl());
+        StorageReference gsReference = storage.getReferenceFromUrl(list_view_setters1.getProjectImageUrl());
+        //Picasso.get().load(list_view_setters1.getProjectImageUrl()).into(holder.imageView);
+        //StorageReference spaceRef = storageRef.(list_view_setters1.getProjectImageUrl());
+       // Log.d("TAG", spaceRef.getDownloadUrl().toString());
+        //Glide.with(holder.imageView.getContext()).load(spaceRef.getDownloadUrl()).into(holder.imageView);
+        gsReference.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+            @Override
+            public void onSuccess(Uri uri) {
+                Log.d("TAG", uri.toString());
+                Glide.with(holder.imageView.getContext()).load(uri.toString()).into(holder.imageView);
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Log.d("TAG", e.toString());
+            }
+        });
 
         holder.imageView.setOnClickListener(new View.OnClickListener() {
             @Override

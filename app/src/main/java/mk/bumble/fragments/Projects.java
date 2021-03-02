@@ -119,7 +119,7 @@ public class Projects extends Fragment {
 
                         mk.bumble.models.Projects projects=document.toObject(mk.bumble.models.Projects.class);
 
-                        Log.d("TAG", projects.getImageUrl());
+                        //Log.d("TAG", projects.getProjectImageUrl());
 
                         List_View_Setters _list_view_setters = new List_View_Setters(
 //
@@ -130,8 +130,10 @@ public class Projects extends Fragment {
                                 projects.getThingsYouNeed(),
                                 projects.getHowToBuild(),
                                 projects.getFunctionality(),
-                                "",
-                                projects.getImageUrl()
+                                projects.getYoutubeUrl(),
+                                projects.getImageUrl(),
+                                projects.getId(),
+                                projects.getProjectImageUrl()
 
                         );
 

@@ -11,9 +11,26 @@ public class List_View_Setters {
     private String funtionality;
     private String youtube_id;
     private String card_image;
+    private int id;
+    private String projectImageUrl;
 
+    public int getId() {
+        return id;
+    }
 
-    public List_View_Setters(String name_project, String description, String code, String image, String things, String build, String funtionality, String youtube_id, String card_image) {
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getProjectImageUrl() {
+        return projectImageUrl;
+    }
+
+    public void setProjectImageUrl(String projectImageUrl) {
+        this.projectImageUrl = projectImageUrl;
+    }
+
+    public List_View_Setters(String name_project, String description, String code, String image, String things, String build, String funtionality, String youtube_id, String card_image, int id, String projectImageUrl) {
         this.name_project = name_project;
         this.description = description;
         this.code = code;
@@ -23,6 +40,8 @@ public class List_View_Setters {
         this.funtionality = funtionality;
         this.youtube_id = youtube_id;
         this.card_image = card_image;
+        this.id = id;
+        this.projectImageUrl = projectImageUrl;
     }
 
     public String getName_project() {

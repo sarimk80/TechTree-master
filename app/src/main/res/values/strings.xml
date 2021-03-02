@@ -95,12 +95,12 @@
 
     // Sonar Sensor
 
-    <string name="Sonar_Heading">Sonar</string>
+    <string name="Sonar_Heading">Ultrasonic Sonar</string>
     <string name="Sonar_Text">Sonar Sensor, is basically used for measuring distance, which works on the principle of Sonar. Ultrasonic sound waves, which isn’t audible by human ear, are emitted by the sensor and they are reflected back if there is an object in front of it. Distance is then estimated by the time interval between sensor and object.</string>
 
      // Battery
 
-    <string name="Battery_Heading">Batrey</string>
+    <string name="Battery_Heading">Battery</string>
     <string name="Battery_Text">A Power House for the robotic car</string>
 
     // Motor

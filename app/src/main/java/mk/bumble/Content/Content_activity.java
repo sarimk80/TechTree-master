@@ -1,6 +1,15 @@
 package mk.bumble.Content;
 
+import com.bumptech.glide.Glide;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.tabs.TabLayout;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
@@ -8,8 +17,11 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
+
+import android.net.Uri;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -60,6 +72,8 @@ public class Content_activity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
+
+
         // Set up the ViewPager with the sections adapter.
         mViewPager = findViewById(R.id.container);
         SetupViewPager(mViewPager);
@@ -67,6 +81,9 @@ public class Content_activity extends AppCompatActivity {
         TabLayout tabLayout = findViewById(R.id.tabs);
 
         tabLayout.setupWithViewPager(mViewPager);
+
+
+
 
         String Title = getIntent().getStringExtra("Title");
 
@@ -86,6 +103,8 @@ public class Content_activity extends AppCompatActivity {
 
 
         textView.setText(Title);
+
+
 
 
     }

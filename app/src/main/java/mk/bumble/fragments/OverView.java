@@ -48,7 +48,7 @@ public class OverView extends Fragment {
         View view = inflater.inflate(R.layout.fragment_over_view, container, false);
         unbind = ButterKnife.bind(this, view);
 
-        textView.setText("OverView");
+        textView.setText("Overview");
 
 
         return view;
